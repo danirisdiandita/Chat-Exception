@@ -1,6 +1,6 @@
 {
     "name": "chat-exception",
-    "version": "1.0.0",
+    "version": "0.0.1",
     "description": "Can log \"hello world\" and \"goodbye world\" to the console!",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
@@ -8,12 +8,14 @@
         "/dist"
     ],
     "dependencies": {
+        "@types/emojione": "^2.2.9",
         "axios": "^1.6.2",
         "chat-exception": "^1.0.0",
-        "typescript": "^5.3.3"
+        "emojione": "^4.5.0"
     },
     "devDependencies": {
         "@types/axios": "^0.14.0",
-        "@types/node": "^20.10.5"
+        "@types/node": "^20.10.5",
+        "typescript": "^5.3.3"
     }
 }
